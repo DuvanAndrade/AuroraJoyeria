@@ -1,0 +1,59 @@
+
+.footer{
+    background-color: $colorBase;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    text-align: center;
+  }
+  .list_footer{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .list_footer a{
+    text-decoration: none;
+    color: $black;
+    font-size: 1.3rem;
+    font-family: $fuenteParrafos;
+  }  
+  .btn_enviar{
+    width: 80%;
+    background-color: $colorTitulo;
+    padding: 5%;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    border-radius: 5%;
+    transition: 0.3s;
+    color: $colorBase;
+  }
+  .btn_enviar:hover{
+    background-color: $colorBase;
+    color: $colorTitulo;
+    
+  }
+  .input_footer{
+    background-color: $colorBase;
+    border:none;
+    border-bottom: 1px solid $colorTitulo;
+    padding: 1rem;
+  }
+  .input_footer:hover{
+    border-bottom: 2px solid $colorTitulo;
+  }
+  .list_footer label{
+    text-align: start;
+  }
+  .navbar_footer_enlaces{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .formulario_footer{
+    display: grid;
+    column-gap: 3rem;
+  }
+  .titulo_email{
+    font-size: 2rem;
+    color: $colorTitulo;
+  }

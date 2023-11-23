@@ -1,0 +1,87 @@
+
+.filtro{
+    padding: 4rem 2rem;
+  }
+  .filtro h2{
+    color: $colorTitulo;
+    border-bottom: 1px solid $colorTitulo;
+    padding-bottom: 1rem;
+  }
+  .list_filtro{
+    list-style-type: none;
+  }
+  .btn_menu{
+    background-color: $white;
+    border: none;
+    font-size: 1rem;
+    font-family: $fuenteParrafos;
+    transition: 0.3s;
+  }
+  .btn_menu:hover{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3rem;
+  
+  }
+  
+  .contenedor_principal_productos{
+    display: grid;
+    grid-template-columns: 20% 80%; 
+  }
+  
+  .box_productos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 20%); 
+    gap: 2rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5rem 2rem;
+  }
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: $colorBase;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+  
+  .box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .descripcion_producto h2{
+    color: $black;
+    font-family: $fuenteHeading;
+    text-align: center;
+    font-size: 1rem;
+    padding-top:1rem;
+  }
+  .descripcion_producto p{
+    color: $colorTitulo;
+    font-size: 1.3rem;
+    font-family: $fuenteParrafos;
+    text-align: center;
+    font-weight: bold;
+  }
+  .btn{
+    width: 90%;
+    padding: 0;
+  }
+  .btn button{
+    background-color: $colorTitulo;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5%;
+    transition: 0.3s;
+    color: $colorBase;
+  }
+  
+  .btn:hover button{
+    background-color: $colorBase;
+    color: $colorTitulo;
+  }

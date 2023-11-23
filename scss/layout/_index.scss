@@ -1,0 +1,88 @@
+    .bg{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .contenedor_imagen{
+      width: 100%;
+      height: 600px;
+      object-fit: cover;
+      overflow: hidden;
+      
+    }
+    .frase{
+      padding-top: 12rem;
+      text-align: center;
+      color: $white;
+      font-family: $fuenteHeading;
+    }
+    .frase h1 {
+      font-size: 5rem;
+    }
+    .frase h2 {
+      font-size: 3rem;
+    }
+    .masVendidos{
+      padding-top: 4rem;
+      padding-bottom:  4rem;
+    }
+    .masVendidos h2{
+      text-align: center;
+      font-family: $fuenteHeading;
+      font-weight: 600;
+      color: $colorTitulo;
+    }
+    
+    .masVendidos_cards{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      gap: 3rem;
+      padding-bottom: 4rem;
+    }
+
+    .imagen {
+      width: 300px;
+      height: 300px;
+    }
+    .card-text{
+      color: $black;
+      text-align: center;
+    }
+    
+    .grilla_img img{
+      overflow: hidden;
+      object-fit: cover;
+    }
+    .container{
+      background-color: #FBF8F0;
+    }
+    .imgB{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.175), rgba(0, 0, 0, 0.474)), url(../assets/img/billetera-principal-mj.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+    
+    }
+    .imgC{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.175), rgba(0, 0, 0, 0.474)), url(../assets/img/cinturon-p.jpeg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-attachment: fixed;
+    }
+    .img_frase h2{
+      color: $white;
+      text-align: center;
+      padding-top: 17rem;
+      font-family: $fuenteHeading;
+    }
+    .imgD{
+      transition: 1.3s;
+      scale: 0.5;
+    }
+    .imgD:hover{
+      scale: 0.6;
+    }
+    .bg_grilla{
+      background-color: #FBF8F0;
+    }

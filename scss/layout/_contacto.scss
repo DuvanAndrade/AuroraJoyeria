@@ -1,0 +1,86 @@
+.titulo_principal{
+    text-align: center;
+    font-family: $fuenteHeading;
+    padding: 3rem;
+  }
+  .contacto_info{
+    background-color: $colorSecundario;
+    padding-top: 2rem;
+  }
+  .contacto_info h2{
+    text-align: center;
+    font-family: $fuenteHeading;
+  }
+  .contacto_info_consulta{
+    background-color: $colorSecundario;
+    text-align: center;
+  }
+  .contacto_info_consulta p{
+    margin:  0;
+    font-family: $fuenteParrafos;
+  }
+  .contacto_info_consulta h3{
+    font-family: $fuenteHeading;
+    color: $colorTitulo;
+    font-weight: bold;
+  }
+  .contacto_info_detalle{
+    display: flex;
+    padding: 2rem;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .contacto_info_detalle h3{
+    text-align: center;
+    font-family: $fuenteHeading;
+    color: $colorTitulo;   
+    
+  }
+  .contacto_info_detalle p{
+    text-align: center;
+    font-family: $fuenteParrafos;
+  
+  }
+  .formulario{
+    width: 100%;
+    padding: 5rem;
+    background-color: $colorSecundario;
+  }
+  .formulario_contacto{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .campo{
+    display: grid;
+    
+  }
+  .campo_ajuste label{
+    text-align: top;
+  }
+  .campo_ajuste input, textarea{
+    background-color: $colorSecundario;
+    border: none;
+    border-bottom: 1px solid $colorTitulo;
+    transition: 0.1Fs;
+  
+  }
+  .campo_ajuste:hover input, textarea{
+    border-bottom: 2px solid $colorTitulo;
+  }
+  .btn_enviar_form{
+    background-color: $colorTitulo;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    border-radius: 5%;
+    transition: 0.3s;
+    color: $colorBase;
+  }
+  .btn_enviar_form:hover{
+    background-color: $colorBase;
+    color: $colorTitulo;
+    
+  }
