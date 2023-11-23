@@ -5,6 +5,8 @@
   /*hace que el border, el padding no afecte el ancho de los elementos*/
 }
 
+/*MODAL CARRITO*/
+/*MODAL*/
 .contenedor_encabezado {
   background-color: #F6EDF9;
   padding-top: 1rem;
@@ -19,19 +21,13 @@
   padding-top: 3rem;
 }
 
-.titulo {
+.titulo h1 {
   color: #694A69;
   font-family: "Playfair Display", serif;
-}
-
-.titulo h1 {
   font-size: 4rem;
   text-shadow: 2px 2px 3px #91878F;
-  color: #694A69;
-  font-family: "Playfair Display", serif;
   transition: 0.3s;
 }
-
 .titulo:hover h1 {
   color: #000000;
 }
@@ -41,7 +37,6 @@
   gap: 2rem;
   padding-right: 2rem;
 }
-
 .redes svg {
   width: 1.5rem;
   height: 1.5rem;
@@ -63,7 +58,6 @@
   list-style-type: none;
   padding: 2rem;
 }
-
 .list a {
   text-decoration: none;
   color: #000000;
@@ -71,18 +65,15 @@
   font-family: "Playfair Display", serif;
   transition: 0.3s;
 }
-
 .list:hover a {
   cursor: pointer;
   font-weight: 600;
 }
 
-/*MODAL CARRITO*/
 .myBtnCart {
   background-color: #F6EDF9;
   border: none;
 }
-
 .myBtnCart svg {
   width: 1.5rem;
 }
@@ -94,8 +85,11 @@
   font-weight: bold;
   padding-left: 1rem;
 }
-
-.closeCart:hover,
+.closeCart:hover {
+  color: #694A69;
+  text-decoration: none;
+  cursor: pointer;
+}
 .closeCart:focus {
   color: #694A69;
   text-decoration: none;
@@ -118,7 +112,6 @@
   border-radius: 1rem;
   overflow: hidden;
 }
-
 .box_cart img {
   width: 100%;
   height: 200px;
@@ -146,7 +139,6 @@
   text-align: end;
 }
 
-/*MODAL*/
 .modal {
   display: none;
   z-index: 1;
@@ -172,35 +164,31 @@
   display: flex;
   justify-content: space-around;
 }
-
-.form {
-  display: grid;
-  gap: 2rem;
-}
-
 .modal_campo h2 {
   color: #694A69;
   font-family: "Playfair Display", serif;
   font-weight: bold;
 }
 
+.form {
+  display: grid;
+  gap: 2rem;
+}
+
 .campo_form {
   display: grid;
 }
-
 .campo_form label {
   color: #000000;
   font-family: "Playfair Display", serif;
   font-size: 1rem;
 }
-
 .campo_form input {
   background-color: #F6EDF9;
   border: none;
   border-bottom: 1px solid #694A69;
   transition: 0.1s;
 }
-
 .campo_form:hover input {
   border-bottom: 2px solid #694A69;
 }
@@ -211,8 +199,11 @@
   font-size: 28px;
   font-weight: bold;
 }
-
-.close:hover,
+.close:hover {
+  color: #694A69;
+  text-decoration: none;
+  cursor: pointer;
+}
 .close:focus {
   color: #694A69;
   text-decoration: none;
@@ -228,7 +219,6 @@
   transition: 0.3s;
   color: #F6EDF9;
 }
-
 .btn_form:hover {
   background-color: #F6EDF9;
   color: #694A69;
@@ -247,12 +237,14 @@
   display: flex;
   flex-direction: column;
 }
-
 .list_footer a {
   text-decoration: none;
   color: #000000;
   font-size: 1.3rem;
   font-family: "Playfair Display", serif;
+}
+.list_footer label {
+  text-align: start;
 }
 
 .btn_enviar {
@@ -265,7 +257,6 @@
   transition: 0.3s;
   color: #F6EDF9;
 }
-
 .btn_enviar:hover {
   background-color: #F6EDF9;
   color: #694A69;
@@ -277,13 +268,8 @@
   border-bottom: 1px solid #694A69;
   padding: 1rem;
 }
-
 .input_footer:hover {
   border-bottom: 2px solid #694A69;
-}
-
-.list_footer label {
-  text-align: start;
 }
 
 .navbar_footer_enlaces {
@@ -506,22 +492,20 @@
   background-color: #f7f4f8;
   padding-top: 2rem;
 }
-
 .contacto_info h2 {
   text-align: center;
   font-family: "Playfair Display", serif;
+  font-weight: 600;
 }
 
 .contacto_info_consulta {
   background-color: #f7f4f8;
   text-align: center;
 }
-
 .contacto_info_consulta p {
   margin: 0;
   font-family: "Playfair Display", serif;
 }
-
 .contacto_info_consulta h3 {
   font-family: "Playfair Display", serif;
   color: #694A69;
@@ -535,13 +519,12 @@
   align-items: center;
   justify-content: center;
 }
-
 .contacto_info_detalle h3 {
   text-align: center;
   font-family: "Playfair Display", serif;
   color: #694A69;
+  font-weight: bold;
 }
-
 .contacto_info_detalle p {
   text-align: center;
   font-family: "Playfair Display", serif;
@@ -567,15 +550,21 @@
 .campo_ajuste label {
   text-align: top;
 }
-
-.campo_ajuste input, textarea {
+.campo_ajuste input {
   background-color: #f7f4f8;
   border: none;
   border-bottom: 1px solid #694A69;
   transition: 0.1Fs;
 }
+.campo_ajuste:hover input {
+  border-bottom: 2px solid #694A69;
+}
 
-.campo_ajuste:hover input, textarea {
+textarea {
+  background-color: #f7f4f8;
+  border: none;
+  border-bottom: 1px solid #694A69;
+  transition: 0.1Fs;
   border-bottom: 2px solid #694A69;
 }
 
@@ -588,7 +577,6 @@
   transition: 0.3s;
   color: #F6EDF9;
 }
-
 .btn_enviar_form:hover {
   background-color: #F6EDF9;
   color: #694A69;
@@ -653,12 +641,12 @@
     text-align: center;
     border-bottom: 0;
   }
-  .titulo_principal {
-    padding: 1rem;
-  }
   .filtro ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .titulo_principal {
+    padding: 1rem;
   }
   .list_filtro {
     display: flex;
@@ -700,6 +688,21 @@
   .total_cart {
     font-size: 1.5rem;
     padding-right: 1rem;
+  }
+  .modal_content {
+    padding: 1rem;
+    width: 90%;
+  }
+  .modal_campo {
+    flex-direction: column;
+  }
+  .modal_campo h2 {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .form {
+    width: 80%;
+    justify-content: end;
   }
 }
 
